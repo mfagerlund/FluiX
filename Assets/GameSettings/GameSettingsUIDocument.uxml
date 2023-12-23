@@ -58,7 +58,7 @@
                         </ui:VisualElement>
                         <ui:VisualElement name="spacer" class="panel-right-spacer" />
                         <ui:VisualElement name="ColorMode" class="right-panel-control-holder ">
-                            <ui:DropdownField label="Color Mode" index="0" choices="Red,Greg,Blue" name="ColorMode" />
+                            <ui:DropdownField label="Color Mode" choices="Red,Greg,Blue" name="ColorMode" />
                         </ui:VisualElement>
                         <ui:VisualElement name="CycleMode" class="right-panel-control-holder ">
                             <ui:EnumField label="Cycle Mode" type="UnityEngine.TextAlignment, UnityEngine.TextRenderingModule" name="CycleMode" />

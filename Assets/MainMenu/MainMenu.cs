@@ -33,6 +33,7 @@ namespace FluiDemo.MainMenu
                 x => x
                     .Button("BootstrapDemo", ctx => ShowBootstrapDemo())
                     .Button("GameSettingsMenu", ctx => ShowGameSettings())
+                    .Label("Time", ctx => $"Time: {DateTime.Now:hh:mm:ss}")
             );
         }
 
